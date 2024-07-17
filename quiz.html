@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Object Oriented Programming Quiz</h1>
+    </header>
+    <main>
+        <form id="quizForm">
+            <div class="question">
+                <h2>Question 1: Which of the following is a feature of Object-Oriented Programming?</h2>
+                <label><input type="radio" name="q1" value="Encapsulation" required><span>Encapsulation</span></label>
+                <label><input type="radio" name="q1" value="Pointers"><span>Pointers</span></label>
+                <label><input type="radio" name="q1" value="Templates"><span>Templates</span></label>
+                <label><input type="radio" name="q1" value="Header files"><span>Header files</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 2: What is the term used for a function defined inside a class?</h2>
+                <label><input type="radio" name="q2" value="Member function" required><span>Member function</span></label>
+                <label><input type="radio" name="q2" value="Inline function"><span>Inline function</span></label>
+                <label><input type="radio" name="q2" value="Friend function"><span>Friend function</span></label>
+                <label><input type="radio" name="q2" value="Virtual function"><span>Virtual function</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 3: Which OOP concept allows the creation of a new class based on an existing class?</h2>
+                <label><input type="radio" name="q3" value="Encapsulation"><span>Encapsulation</span></label>
+                <label><input type="radio" name="q3" value="Abstraction"><span>Abstraction</span></label>
+                <label><input type="radio" name="q3" value="Inheritance" required><span>Inheritance</span></label>
+                <label><input type="radio" name="q3" value="Polymorphism"><span>Polymorphism</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 4: Which of the following refers to the ability of different classes to be treated as instances of the same class through inheritance?</h2>
+                <label><input type="radio" name="q4" value="Inheritance"><span>Inheritance</span></label>
+                <label><input type="radio" name="q4" value="Polymorphism" required><span>Polymorphism</span></label>
+                <label><input type="radio" name="q4" value="Encapsulation"><span>Encapsulation</span></label>
+                <label><input type="radio" name="q4" value="Abstraction"><span>Abstraction</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 5: Which OOP principle is used to hide the internal details of an object and only expose the necessary functionalities?</h2>
+                <label><input type="radio" name="q5" value="Inheritance"><span>Inheritance</span></label>
+                <label><input type="radio" name="q5" value="Encapsulation" required><span>Encapsulation</span></label>
+                <label><input type="radio" name="q5" value="Polymorphism"><span>Polymorphism</span></label>
+                <label><input type="radio" name="q5" value="Abstraction"><span>Abstraction</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 6: What is the term used for a special function that initializes objects of a class?</h2>
+                <label><input type="radio" name="q6" value="Destructor"><span>Destructor</span></label>
+                <label><input type="radio" name="q6" value="Constructor" required><span>Constructor</span></label>
+                <label><input type="radio" name="q6" value="Operator"><span>Operator</span></label>
+                <label><input type="radio" name="q6" value="Function"><span>Function</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 7: Which of the following is not a feature of Object-Oriented Programming?</h2>
+                <label><input type="radio" name="q7" value="Data hiding"><span>Data hiding</span></label>
+                <label><input type="radio" name="q7" value="Procedural programming" required><span>Procedural programming</span></label>
+                <label><input type="radio" name="q7" value="Dynamic binding"><span>Dynamic binding</span></label>
+                <label><input type="radio" name="q7" value="Message passing"><span>Message passing</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 8: What is the concept of providing a single interface to multiple methods in different classes?</h2>
+                <label><input type="radio" name="q8" value="Encapsulation"><span>Encapsulation</span></label>
+                <label><input type="radio" name="q8" value="Abstraction"><span>Abstraction</span></label>
+                <label><input type="radio" name="q8" value="Inheritance"><span>Inheritance</span></label>
+                <label><input type="radio" name="q8" value="Polymorphism" required><span>Polymorphism</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 9: Which OOP concept is used to represent real-world entities?</h2>
+                <label><input type="radio" name="q9" value="Functions"><span>Functions</span></label>
+                <label><input type="radio" name="q9" value="Classes" required><span>Classes</span></label>
+                <label><input type="radio" name="q9" value="Arrays"><span>Arrays</span></label>
+                <label><input type="radio" name="q9" value="Loops"><span>Loops</span></label>
+            </div>
+            <div class="question">
+                <h2>Question 10: What is the mechanism by which one class acquires the properties and behaviors of another class?</h2>
+                <label><input type="radio" name="q10" value="Encapsulation"><span>Encapsulation</span></label>
+                <label><input type="radio" name="q10" value="Abstraction"><span>Abstraction</span></label>
+                <label><input type="radio" name="q10" value="Inheritance" required><span>Inheritance</span></label>
+                <label><input type="radio" name="q10" value="Polymorphism"><span>Polymorphism</span></label>
+            </div>
+            <button type="button" id="submit">Submit</button>
+        </form>
+        <div id="result"></div>
+    </main>
+    <script src="quiz.js"></script>
+</body>
+</html>
